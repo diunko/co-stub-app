@@ -1,0 +1,10 @@
+
+name: co-stub-app
+description: simple http app that lives in cocaine cloud
+type: nodejs
+drivers:
+  main:
+    type: native-server
+    args:
+      emit: doesntmatterwhat
+

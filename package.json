@@ -1,0 +1,19 @@
+
+{
+  "name": "co-stub-app",
+  "version": "0.0.1",
+  "description": "simple http app that lives in cocaine cloud",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diunko/co-stub-app.git"
+  },
+  "dependencies":{
+    "microtime":"0.3.x"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "author": "diunko@yandex-team.ru",
+  "license": "BSD",
+}
