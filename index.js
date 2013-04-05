@@ -14,7 +14,7 @@ var S = new http.Server(function(req,res){
       "x-by":"simple node app",
       "content-type":"text/plain"
     })
-    res.write(process.pid+" at "+mt.now()+"\n")
+    res.write([process.pid,process.version,"at",mt.now()].join(" ")+"\n")
     res.end("on "+req.url+" received request with body of "+len+" bytes\n")
   })
 })
