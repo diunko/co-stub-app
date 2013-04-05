@@ -1,4 +1,3 @@
-
 {
   "name": "co-stub-app",
   "version": "0.0.1",
@@ -12,7 +11,7 @@
     "microtime":"0.3.x"
   },
   "engines": {
-    "node": "0.8.x"
+    "node": "0.8.22"
   },
   "author": "diunko@yandex-team.ru",
   "license": "BSD"
