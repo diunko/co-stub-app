@@ -1,4 +1,3 @@
-
 // index.js
 var http = require("http")
 var mt = require("microtime")
@@ -25,7 +24,6 @@ if(process.__cocaine){
 } else {
   S.listen(8080)
 }
-
 
 setTimeout(function(){S.close()},20000)
 
