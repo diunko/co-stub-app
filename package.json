@@ -11,7 +11,7 @@
     "microtime":"0.3.x"
   },
   "engines": {
-    "node": "0.8.14"
+    "node": "0.8.17"
   },
   "author": "diunko@yandex-team.ru",
   "license": "BSD"
